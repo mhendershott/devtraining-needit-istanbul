@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeedItUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name>NeedItUtils</name>
+        <script><![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	initialize: function() {
+		
+	},
+	isDatePast: function(strDate) {
+		var rightNow = new GlideDateTime();
+		var testDate = new GlideDateTime(strDate);
+		
+		// if the test time is before rightNow return TRUE, else return FALSE
+		
+		if (testDate.before(rightNow)) {
+			return true;
+		} else {
+			return false;
+		}
+	},
+	isDateToday: function(strDate) {
+		var rightNow = new GlideDateTime();
+		var testDate = new GlideDateTime(strDate);
+		
+		var today = rightNow.getLocalDate();
+		var istoday = testDate.getLocalDate();
+		
+		// if now equals todays date return TRUE, else return FALSE
+		if (today.compareTo(istoday) == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	},
+    type: 'NeedItUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-02 14:10:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>052012a6db0332004f4af7fdbf9619a9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_052012a6db0332004f4af7fdbf9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-02 15:16:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
