@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="1wkSynergy" max_length="40" name="x_58872_needit_1wksynergy" type="collection">
+        <element attributes="import_attribute_name=ACKNOWLEDGE_DEPT,edge_encryption_enabled=true" label="ACKNOWLEDGE_DEPT" max_length="40" name="u_acknowledge_dept" type="string"/>
+        <element attributes="import_attribute_name=ACK_TIMESTAMP,edge_encryption_enabled=true" label="ACK_TIMESTAMP" max_length="40" name="u_ack_timestamp" type="string"/>
+        <element attributes="import_attribute_name=AS400_ACCT_NO,edge_encryption_enabled=true" label="AS400_ACCT_NO" max_length="40" name="u_as400_acct_no" type="string"/>
+        <element attributes="import_attribute_name=ASSIGNED_TO,edge_encryption_enabled=true" label="ASSIGNED_TO" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=CATEGORY,edge_encryption_enabled=true" label="CATEGORY" max_length="40" name="u_category" type="string"/>
+        <element attributes="import_attribute_name=CITY,edge_encryption_enabled=true" label="CITY" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=CLEAR_REASON,edge_encryption_enabled=true" label="CLEAR_REASON" max_length="40" name="u_clear_reason" type="string"/>
+        <element attributes="import_attribute_name=CLEAR_TIMESTAMP,edge_encryption_enabled=true" label="CLEAR_TIMESTAMP" max_length="40" name="u_clear_timestamp" type="string"/>
+        <element attributes="import_attribute_name=CREATE_DEPT,edge_encryption_enabled=true" label="CREATE_DEPT" max_length="40" name="u_create_dept" type="string"/>
+        <element attributes="import_attribute_name=CREATE_USER,edge_encryption_enabled=true" label="CREATE_USER" max_length="40" name="u_create_user" type="string"/>
+        <element attributes="import_attribute_name=EXT_TICKET_NUMBER,edge_encryption_enabled=true" label="EXT_TICKET_NUMBER" max_length="40" name="u_ext_ticket_number" type="string"/>
+        <element attributes="import_attribute_name=ID,edge_encryption_enabled=true" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=MASTER_TICKET_NUMBER,edge_encryption_enabled=true" label="MASTER_TICKET_NUMBER" max_length="40" name="u_master_ticket_number" type="string"/>
+        <element attributes="import_attribute_name=MTTR,edge_encryption_enabled=true" label="MTTR" max_length="40" name="u_mttr" type="string"/>
+        <element attributes="import_attribute_name=Open_Reason,edge_encryption_enabled=true" label="Open_Reason" max_length="40" name="u_open_reason" type="string"/>
+        <element attributes="import_attribute_name=OPEN_TIMESTAMP,edge_encryption_enabled=true" label="OPEN_TIMESTAMP" max_length="40" name="u_open_timestamp" type="string"/>
+        <element attributes="import_attribute_name=ORIGINATING_SYSTEM,edge_encryption_enabled=true" label="ORIGINATING_SYSTEM" max_length="40" name="u_originating_system" type="string"/>
+        <element attributes="import_attribute_name=PROVINCE,edge_encryption_enabled=true" label="PROVINCE" max_length="40" name="u_province" type="string"/>
+        <element attributes="import_attribute_name=REASON_FOR_OPENING,edge_encryption_enabled=true" label="REASON_FOR_OPENING" max_length="40" name="u_reason_for_opening" type="string"/>
+        <element attributes="import_attribute_name=SERVICEID,edge_encryption_enabled=true" label="SERVICEID" max_length="40" name="u_serviceid" type="string"/>
+        <element attributes="import_attribute_name=SEVERITY,edge_encryption_enabled=true" label="SEVERITY" max_length="40" name="u_severity" type="string"/>
+        <element attributes="import_attribute_name=TICKET_NUMBER,edge_encryption_enabled=true" label="TICKET_NUMBER" max_length="40" name="u_ticket_number" type="string"/>
+        <element attributes="import_attribute_name=TIMESTAMP,edge_encryption_enabled=true" label="TIMESTAMP" max_length="40" name="u_timestamp" type="string"/>
+        <element attributes="import_attribute_name=ZIPCODE,edge_encryption_enabled=true" label="ZIPCODE" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>
